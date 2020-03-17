@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Utilities" Version="0.0.2">
-      <IncludeAssets>all</IncludeAssets>
+    <PackageReference Include="Utilities" Version="0.0.4">
+      <PrivateAssets>analyzers;build</PrivateAssets>
     </PackageReference>
   </ItemGroup>
 

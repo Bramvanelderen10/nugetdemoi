@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <Version>0.0.2</Version>
+    <Version>0.0.4</Version>
     <Authors>Test</Authors>
     <Description>Test</Description>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
@@ -20,8 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Base" Version="0.0.2">
-      <IncludeAssets>all</IncludeAssets>
+    <PackageReference Include="Base" Version="0.0.4">
+      <PrivateAssets>analyzers;build</PrivateAssets>
     </PackageReference>
   </ItemGroup>
 
