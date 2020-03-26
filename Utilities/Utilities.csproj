@@ -2,15 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <Version>0.0.4</Version>
+    <Version>0.0.22</Version>
     <Authors>Test</Authors>
     <Description>Test</Description>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove="resources\utilities.json" />
-  </ItemGroup>
 
   <ItemGroup>
     <Content Include="resources\utilities.json">
@@ -20,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Base" Version="0.0.4">
+    <PackageReference Include="Base" Version="0.0.13">
       <PrivateAssets>analyzers;build</PrivateAssets>
     </PackageReference>
   </ItemGroup>

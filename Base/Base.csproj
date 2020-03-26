@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <Version>0.0.4</Version>
+    <Version>0.0.13</Version>
     <Authors>Test</Authors>
     <Description>Test</Description>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
